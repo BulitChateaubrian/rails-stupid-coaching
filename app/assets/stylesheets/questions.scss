@@ -16,7 +16,20 @@ $gray: #F4F4F4;
 
 a {
   color: grey;
+  font-style: none;
   &:hover {
     color: black;
   }
+}
+
+.response {
+  background-color: #FFFFE1;
+  width: 600px;
+  padding: 4px;
+}
+#button {
+  background-color: #337AB7;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
 }
